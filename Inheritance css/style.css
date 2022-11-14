@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin: 0 auto;    
+}
+
+
+#title {
+    font-size: 30px;
+    color: blueviolet;
+    padding-left: 50px;
+    margin-top: 20px;
+}
+
+.item {
+    list-style: none;
+}
+
+#lists {
+    padding: 10px 40px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.items {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+#lists:nth-child(even)  {
+    background-color: purple;
+    color: plum;
+}
+
+.items:nth-child(even) {
+    background-color: blueviolet;
+    color: #fff;
+}
